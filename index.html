@@ -6,30 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chatroom</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="/style.css">
-
 </head>
 <body>
-    
-<section class="chat_section">
-    
-    <div class="brand">
-        
-        <img src="/happy_chat.png" alt="" srcset="" height="40">
-        <h4 style="font-family:Verdana, Geneva, Tahoma, sans-serif;">Chatroom</h4>
-    
-    </div>
-
-    <div class="message_area">
-
-    </div>
-
-    <div>
-        <textarea id="textarea" cols="30" rows="1" placeholder="Write a message..."></textarea>
-    </div>
-
-</section>
-
+    <section class="chat_section">
+        <div class="header">
+            <div class="brand">
+                <img src="/happy_chat.png" alt="Brand Logo" height="40">
+                <h1>Chatroom</h1>
+            </div>
+            <div class="user-info">
+                <i class="fas fa-user"></i>
+                <span id="username"></span>
+            </div>
+        </div>
+        <div class="message_area"></div>
+        <div class="input-container">
+            <textarea id="textarea" placeholder="Write a message..."></textarea>
+            <button id="send-btn"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </section>
     <script src="/socket.io/socket.io.js"></script>
     <script src="/client.js"></script>
 </body>
