@@ -1,3 +1,5 @@
+![Chat](a.png)
+
 # Real-time--Chat
 
 Welcome to the Chatroom Project! This application allows users to join a chatroom, enter their name, and send messages in real-time.
@@ -10,20 +12,6 @@ Welcome to the Chatroom Project! This application allows users to join a chatroo
 - **Automatic Scrolling**: The chat window automatically scrolls to the latest message.
 - **Modern Styling**: The chatroom has a modern look with a clean and simple UI.
 
-## Project Structure
-
-chatroom-project/
-│
-├── public/
-│ ├── happy_chat.png
-│ ├── style.css
-│ ├── client.js
-│
-├── index.html
-├── server.js
-├── README.md
-├── package.json
-└── package-lock.json
 
 ## Prerequisites
 
